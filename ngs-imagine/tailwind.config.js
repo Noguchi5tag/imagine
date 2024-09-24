@@ -16,6 +16,9 @@ export default {
       fontFamily: {
         'Maru': ['"Zen Maru Gothic"', 'sans-serif'],
       },
+      writingMode: {
+        'vertical-rl': 'vertical-rl',
+      },
     },
   },
   plugins: [],

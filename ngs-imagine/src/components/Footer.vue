@@ -10,7 +10,7 @@ const modules = [Navigation, A11y];
 </script>
 
 <template>
-    <div class="border-t-8 border-b-customBeige"></div>
+    <div class="border-t-8 border-t-customBeige"></div>
     <Inner>
         <div class="my-10 lg:my-20">
             <div class="pb-10 lg:pb-20 border-b-gray-300 border-b-4">

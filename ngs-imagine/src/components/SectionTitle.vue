@@ -9,7 +9,7 @@ defineProps({
 
 <template>
     <div class="pb-10">
-        <div class="compass-image">
+        <div class="compass-image ml-8 lg:ml-0">
             <p class="font-Maru text-xl lg:text-3xl text-customBlue font-bold">{{ title_sub }}</p>
             <h1 class="font-Maru text-3xl lg:text-6xl text-customBlue font-bold pt-2">{{ title }}</h1>
         </div>
@@ -26,7 +26,7 @@ defineProps({
 .compass-image::before {
     content: '';
     position: absolute;
-    left: 0rem;
+    left: -3rem;
     top: 50%;
     transform: translateY(-50%);
     width: 5rem;

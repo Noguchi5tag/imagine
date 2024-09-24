@@ -3,6 +3,7 @@ import HelloWorld from './components/_HelloWorld.vue'
 import TopView from './components/TopView.vue'
 import About from './components/About.vue'
 import Talk from './components/Talk.vue'
+import Special from './components/Special.vue'
 
 import Footer from './components/Footer.vue'
 
@@ -16,7 +17,7 @@ import Footer from './components/Footer.vue'
 
   <Talk />
 
-
+  <Special />
 
   <Footer />
 
