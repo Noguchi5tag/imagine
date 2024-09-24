@@ -74,7 +74,7 @@ const modules = [Navigation, A11y];
             <div class="mt-10 lg:mt-20">
                 <div class="lg:flex items-start justify-around">
                     <div class="flex flex-col justify-center">
-                        <div class="w-1/3 lg:1/2 mx-auto">
+                        <div class="w-1/3 lg:w-1/2 mx-auto">
                             <img class="w-full" src="../assets/images/logo/logo.svg" alt="長崎イマジンロゴ">
                         </div>
                         <div class="flex items-center justify-center gap-8 mt-6">
@@ -84,18 +84,18 @@ const modules = [Navigation, A11y];
                         </div>
                     </div>
                     <div class="flex justify-around gap-8 mt-4 lg:mt-0">
-                        <ul class="h-full flex flex-col justify-between">
+                        <ul class="h-full flex flex-col justify-between lg:space-y-6">
                             <li class="font-Maru font-bold text-base lg:text-lg lg:leading-loose leading-loose"><a href="#">長崎イマジンについて</a></li>
                             <li class="font-Maru font-bold text-base lg:text-lg lg:leading-loose leading-loose"><a href="#">最新情報</a></li>
                             <li class="font-Maru font-bold text-base lg:text-lg lg:leading-loose leading-loose"><a href="#">イマジントーーク！</a></li>
                         </ul>
                         <ul class="lg:flex items-end justify-between gap-8">
-                            <div class="">
+                            <div class="lg:space-y-6">
                                 <li class="font-Maru font-bold text-base lg:text-lg lg:leading-loose leading-loose"><a href="#">特集</a></li>
                                 <li class="list-disc font-Maru text-base lg:leading-loose leading-loose"><a href="#">長崎今人 ながさき昭和100年史</a></li>
                                 <li class="list-disc font-Maru text-base lg:leading-loose leading-loose"><a href="#">アマフェッショナル散策の流儀</a></li>
                             </div>
-                            <div class="">
+                            <div class="lg:space-y-6">
                                 <li class="list-disc font-Maru text-base lg:leading-loose leading-loose"><a href="#">長崎ひまじん</a></li>
                                 <li class="list-disc font-Maru text-base lg:leading-loose leading-loose"><a href="#">長崎今走る人イマRUNジン </a></li>
                             </div>
