@@ -29,7 +29,7 @@ const swiperPagination = {
     <BgBrown>
         <div class="overflow-x-hidden">
             <Inner>
-                <div class="py-28 lg:py-8">
+                <div id="talk" class="py-28 lg:py-8">
                     <div class="lg:flex justify-around items-center">
                         <SectionTitle :title=" 'イマジントーーク！' " :title_sub=" 'IMAGINE TALK!' "/>
                         <div class="hidden lg:block">

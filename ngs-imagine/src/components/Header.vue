@@ -1,14 +1,14 @@
 <script setup>
 import { ref } from 'vue'
-defineProps({
-    
-})
+import  {  Slide  }  from  'vue3-burger-menu'   // 使用したい CSS トランジションをインポートします。この場合は `Slide` を使用します。
 
+const isOpen = ref(false)
 </script>
 
 <template>
+
 <div class="fixed top-0 left-0 w-full flex justify-between items-center px-4 lg:px-12 py-2 lg:py-4 z-50">
-    <nav class="bg-customBeige flex justify-center items-center pl-2 pr-6 py-2 rounded-full">
+    <nav class="bg-customBeige flex justify-center items-center pl-2 pr-6 py-2 rounded-full shadow-lg">
         <div class="w-auto h-auto">
             <img class="w-40 lg:w-80 h-auto" src="../assets/images/logo/logo_yoko.svg" alt="長崎IMAGINE">
         </div>
@@ -20,18 +20,23 @@ defineProps({
         </ul>
     </nav>
     <div class="hidden lg:flex">
-        <div class="w-12 h-12 ml-2 bg-customBeige p-2 rounded-full">
+        <div class="w-12 h-12 ml-2 bg-customBeige p-2 rounded-full shadow-lg">
             <a href="#"><img class="w-full" src="../assets/images/sns/facebook.png" alt="Facebookアイコン"></a>
         </div>
-        <div class="w-12 h-12 ml-2 bg-customBeige p-2 rounded-full">
+        <div class="w-12 h-12 ml-2 bg-customBeige p-2 rounded-full shadow-lg">
             <a href="#"><img src="../assets/images/sns/instagram.png" alt="Instagramアイコン"></a>
         </div>
-        <div class="w-12 h-12 ml-2 bg-customBeige p-3 rounded-full">
+        <div class="w-12 h-12 ml-2 bg-customBeige p-3 rounded-full shadow-lg">
             <a href="#"><img src="../assets/images/sns/x.svg" alt="Xアイコン"></a>
         </div>
     </div>
     <div class="lg:hidden w-12 h-12 ml-2 bg-customBeige p-2 rounded-full">
         <!-- ここにハンバーガーメニュー -->
+        <Slide right>
+            <a id="home" href="#talk">
+                <span>Home</span>
+            </a>
+        </Slide>
     </div>
 </div>
 </template>
