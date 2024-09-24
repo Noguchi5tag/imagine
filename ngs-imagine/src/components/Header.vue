@@ -30,13 +30,15 @@ const isOpen = ref(false)
             <a href="#"><img src="../assets/images/sns/x.svg" alt="Xアイコン"></a>
         </div>
     </div>
-    <div class="lg:hidden w-12 h-12 ml-2 bg-customBeige p-2 rounded-full">
+    <div class="lg:hidden w-12 h-12 ml-2 bg-customBeige p-2 rounded-full relative">
         <!-- ここにハンバーガーメニュー -->
-        <Slide right>
-            <a id="home" href="#talk">
-                <span>Home</span>
-            </a>
-        </Slide>
+        <div class="absolute top-10 left-0">
+            <Slide right>
+                <a id="home" href="#talk">
+                    <span>Home</span>
+                </a>
+            </Slide>
+        </div>
     </div>
 </div>
 </template>
