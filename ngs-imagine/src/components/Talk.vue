@@ -146,13 +146,17 @@ const swiperPagination = {
                                 </swiper-slide>
                             </swiper>
                         </div>
-                        <div class="lg:hidden mt-10 flex">
+                        <div class="lg:hidden mt-10 flex items-center relative">
                             <div class="">
-                                <span class="story-navi story-navi--prev bg-customBlue text-white p-4 rounded-full relative before:content-['prev']"></span>
-                                <span class="story-navi story-navi--next bg-customBlue text-white p-4 rounded-full ml-2 relative before:content-['next']"></span>
+                                <span class="story-navi story-navi--prev bg-customBlue text-white px-4 py-2 rounded-full relative before:content-['prev']"></span>
+                                <span class="story-navi story-navi--next bg-customBlue text-white px-4 py-2 rounded-full ml-2 relative before:content-['next']"></span>
                             </div>
-                            <div data-v-afe6d343="" class="swiper-pagination swiper-my-pagination-main swiper-pagination-progressbar swiper-pagination-horizontal">
-                                <span class="swiper-pagination-progressbar-fill" style="transform: translate3d(0px, 0px, 0px) scaleX(0.25) scaleY(1); transition-duration: 300ms;"></span>
+                            <div class="swiper-pagination swiper-my-pagination-main swiper-pagination-progressbar swiper-pagination-horizontal">
+                                <span 
+                                    class="swiper-pagination-progressbar-fill" 
+                                    style="transform: translate3d(0px, 0px, 0px) scaleX(0.25) scaleY(1); 
+                                    transition-duration: 300ms;"
+                                ></span>
                             </div>
                         </div>
                     </div>
@@ -195,10 +199,15 @@ const swiperPagination = {
     overflow: visible;
 }
 
-.swiper-horizontal > .swiper-pagination-progressbar,
 .swiper-pagination-progressbar.swiper-pagination-horizontal {
-    bottom: 9rem;
-    top: auto;
-    width: 80%;
+    right: 0 !important;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+    height: var(--swiper-pagination-progressbar-size, 6px);
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #354896;
 }
 </style>
