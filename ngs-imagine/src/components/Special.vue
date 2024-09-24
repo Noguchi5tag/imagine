@@ -13,7 +13,7 @@ import { ref } from 'vue'
         <Inner>
             <SectionTitle :title=" '特集' " :title_sub=" 'SPECIAL CONTENTS' "/>
 
-            <div class="py-5 lg:py-10">
+            <div class="pb-40 pt-5 lg:pt-10">
 
                 <div class="lg:flex justify-between items-center mb-4 lg:mb-8 relative">
                     <div class="aspect-w-4 aspect-h-3 lg:aspect-w-3 lg:aspect-h-5 lg:w-1/2 w-auto h-[300px] lg:h-auto sm:h-[300px] z-10">
