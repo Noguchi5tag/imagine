@@ -27,14 +27,14 @@ const swiperPagination = {
 
 <template>
     <BgBrown>
-        <div  class="overflow-x-hidden">
+        <div class="overflow-x-hidden">
             <Inner>
                 <div class="py-28 lg:py-8">
                     <div class="lg:flex justify-around items-center">
                         <SectionTitle :title=" 'イマジントーーク！' " :title_sub=" 'IMAGINE TALK!' "/>
                         <div class="hidden lg:block">
-                            <span class="story-navi story-navi--prev bg-customBlue text-white p-4 rounded-full relative before:content-['prev']"></span>
-                            <span class="story-navi story-navi--next bg-customBlue text-white p-4 rounded-full ml-2 relative before:content-['next']"></span>
+                            <span class="story-navi story-navi--prev bg-customBlue text-white px-6 py-4 rounded-full relative"></span>
+                            <span class="story-navi story-navi--next bg-customBlue text-white px-6 py-4 rounded-full ml-2 relative"></span>
                         </div>
                     </div>
         
@@ -58,12 +58,12 @@ const swiperPagination = {
                                 :pagination="swiperPagination"
                             >
                                 <swiper-slide>
-                                    <div class="rounded-lg bg-customBeige px-4">
+                                    <div class="rounded-lg bg-customBeige px-4 ">
                                         <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
-                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 border-4 border-customBeige bg-customBeige absolute -top-1/3">
+                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">
                                                 <img class="w-full h-full object-cover" src="../assets/images/talk/ana.jpg" alt="ANAの人">
                                             </div>
-                                            <div class="mb-4 pt-20">
+                                            <div class="mb-4 pt-20 lg:pt-28">
                                                 <!-- <img src="" alt="会社のロゴ"> -->
                                                 <p class="text-sm lg:text-base">（ここにロゴ）ANAテレマート株式会社</p>
                                             </div>
@@ -76,12 +76,12 @@ const swiperPagination = {
                                     </div>
                                 </swiper-slide>
                                 <swiper-slide>
-                                    <div class="rounded-lg bg-customBeige px-4">
+                                    <div class="rounded-lg bg-customBeige px-4 ">
                                         <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
-                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 border-4 border-customBeige bg-customBeige absolute -top-1/3">
+                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">
                                                 <img class="w-full h-full object-cover" src="../assets/images/talk/ana.jpg" alt="ANAの人">
                                             </div>
-                                            <div class="mb-4 pt-20">
+                                            <div class="mb-4 pt-20 lg:pt-28">
                                                 <!-- <img src="" alt="会社のロゴ"> -->
                                                 <p class="text-sm lg:text-base">（ここにロゴ）ANAテレマート株式会社</p>
                                             </div>
@@ -92,14 +92,13 @@ const swiperPagination = {
                                             <p class="text-sm lg:text-base text-customBlue font-bold">T・K（入社00年目）</p>
                                         </div>
                                     </div>
-                                </swiper-slide>
-                                <swiper-slide>
-                                    <div class="rounded-lg bg-customBeige px-4">
+                                </swiper-slide><swiper-slide>
+                                    <div class="rounded-lg bg-customBeige px-4 ">
                                         <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
-                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 border-4 border-customBeige bg-customBeige absolute -top-1/3">
+                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">
                                                 <img class="w-full h-full object-cover" src="../assets/images/talk/ana.jpg" alt="ANAの人">
                                             </div>
-                                            <div class="mb-4 pt-20">
+                                            <div class="mb-4 pt-20 lg:pt-28">
                                                 <!-- <img src="" alt="会社のロゴ"> -->
                                                 <p class="text-sm lg:text-base">（ここにロゴ）ANAテレマート株式会社</p>
                                             </div>
@@ -110,14 +109,30 @@ const swiperPagination = {
                                             <p class="text-sm lg:text-base text-customBlue font-bold">T・K（入社00年目）</p>
                                         </div>
                                     </div>
-                                </swiper-slide>
-                                <swiper-slide>
-                                    <div class="rounded-lg bg-customBeige px-4">
+                                </swiper-slide><swiper-slide>
+                                    <div class="rounded-lg bg-customBeige px-4 ">
                                         <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
-                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 border-4 border-customBeige bg-customBeige absolute -top-1/3">
+                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">
                                                 <img class="w-full h-full object-cover" src="../assets/images/talk/ana.jpg" alt="ANAの人">
                                             </div>
-                                            <div class="mb-4 pt-20">
+                                            <div class="mb-4 pt-20 lg:pt-28">
+                                                <!-- <img src="" alt="会社のロゴ"> -->
+                                                <p class="text-sm lg:text-base">（ここにロゴ）ANAテレマート株式会社</p>
+                                            </div>
+                                            <h3 class="mb-4 text-base lg:text-lg text-customBlue font-Maru font-bold">「美声」と「よりそい」の先に、<br>たくさんの感謝に出会える。</h3>
+                                        </div>
+                                        <div class="py-4">
+                                            <p class="mb-4 text-xs">私は国内線と国際線の２つのご案内スキルを習得しているので、その予約案内や派遣などの業務に携わっています。....</p>
+                                            <p class="text-sm lg:text-base text-customBlue font-bold">T・K（入社00年目）</p>
+                                        </div>
+                                    </div>
+                                </swiper-slide><swiper-slide>
+                                    <div class="rounded-lg bg-customBeige px-4 ">
+                                        <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
+                                            <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">
+                                                <img class="w-full h-full object-cover" src="../assets/images/talk/ana.jpg" alt="ANAの人">
+                                            </div>
+                                            <div class="mb-4 pt-20 lg:pt-28">
                                                 <!-- <img src="" alt="会社のロゴ"> -->
                                                 <p class="text-sm lg:text-base">（ここにロゴ）ANAテレマート株式会社</p>
                                             </div>
@@ -155,7 +170,27 @@ const swiperPagination = {
     </BgBrown>
 </template>
 
-<style scoped>
+<style>
+.story-navi--next::before,
+.story-navi--prev::before {
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.story-navi--next::before {
+    background-image: url('../assets/images/button/next-button.png');
+}
+.story-navi--prev::before {
+    background-image: url('../assets/images/button/prev-button.png');
+}
+
 .talk-contents .swiper {
     overflow: visible;
 }
@@ -166,5 +201,4 @@ const swiperPagination = {
     top: auto;
     width: 80%;
 }
-
 </style>
