@@ -39,7 +39,7 @@ import { ref } from 'vue'
                 </div>
 
                 <div class="info-content">
-                    <div class="flex items-center justify-between gap-6 mt-10 pt-10 border-t-2 lg:border-t-4 border-t-customBeige">
+                    <div class="flex items-center justify-between gap-6 mt-5 lg:mt-10 pt-5 lg:pt-10 border-t-2 lg:border-t-4 border-t-customBeige">
                         <div class="w-2/5 lg:w-1/5 bg-customBeige rounded-lg p-4">
                             <img class="w-full" src="../assets/images/logo/logo.svg" alt="長崎イマジンのロゴ">
                         </div>
@@ -54,7 +54,7 @@ import { ref } from 'vue'
                 </div>
 
                 <div class="info-content">
-                    <div class="flex items-center justify-between gap-6 mt-10 pt-10 border-t-2 lg:border-t-4 border-t-customBeige">
+                    <div class="flex items-center justify-between gap-6 mt-5 lg:mt-10 pt-5 lg:pt-10 border-t-2 lg:border-t-4 border-t-customBeige">
                         <div class="w-2/5 lg:w-1/5 bg-customBeige rounded-lg p-4">
                             <img class="w-full" src="../assets/images/logo/logo.svg" alt="長崎イマジンのロゴ">
                         </div>

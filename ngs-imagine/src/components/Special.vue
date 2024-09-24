@@ -16,6 +16,9 @@ import { ref } from 'vue'
             <div class="pb-40 pt-5 lg:pt-10">
 
                 <div class="lg:flex justify-between items-center mb-4 lg:mb-8 relative">
+
+                    <p class="lg:hidden font-Maru text-xl lg:text-3xl text-customBlue font-bold mb-4 z-10">CONTENTS:01</p>
+
                     <div class="aspect-w-4 aspect-h-3 lg:aspect-w-3 lg:aspect-h-5 lg:w-1/2 w-auto h-[300px] lg:h-auto sm:h-[300px] z-10">
                         <img class="w-full h-full rounded-lg object-cover" src="../assets/images/special/nagasaki_100year.jpg" alt="">
                     </div>
@@ -36,7 +39,7 @@ import { ref } from 'vue'
                             </div>
                         </div>
                         <img class="hidden lg:block absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 z-10" src="../assets/images/logo/compass.svg" alt="ロゴ">
-                        <p class="hidden lg:absolute top-0 -right-4 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 font-Maru text-xl lg:text-3xl text-customBlue font-bold jp-vertical z-10">CONTENTS:01</p>
+                        <p class="hidden lg:block absolute top-0 -right-4 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 font-Maru text-xl lg:text-3xl text-customBlue font-bold jp-vertical z-10">CONTENTS:01</p>
                     </div>
                     <div class="hidden lg:absolute bg-white top-1/2 right-0 -translate-y-1/2 w-full h-20 lg:w-full lg:h-80 z-0"></div>
                 </div>

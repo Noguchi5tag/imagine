@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="pb-10">
+    <div class="pb-5 lg:pb-10">
         <div class="compass-image ml-8 lg:ml-0">
             <p class="font-Maru text-xl lg:text-3xl text-customBlue font-bold">{{ title_sub }}</p>
             <h1 class="font-Maru text-3xl lg:text-6xl text-customBlue font-bold pt-2">{{ title }}</h1>

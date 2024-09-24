@@ -47,7 +47,7 @@ const swiperPagination = {
                             <swiper
                                 :modules="modules"
                                 :slides-per-view="1"
-                                :space-between="20"
+                                :space-between="10"
                                 :breakpoints="{
                                     1024: {
                                         slidesPerView: 2,
