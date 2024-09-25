@@ -9,9 +9,9 @@ import { ref } from 'vue'
 </script>
 
 <template>
-    <BgBeige>
+    <BgBeige id="about">
         <Inner>
-            <SectionTitle :title=" '長崎イマジンについて' " :title_sub=" 'CONCEPT' " class="hidden lg:block" />
+            <SectionTitle :title=" '長崎イマジンについて' " :title_sub=" 'CONCEPT' " class="hidden lg:block"/>
 
             <div class="lg:grid lg:grid-cols-3 gap-16 block pb-10 lg:pb-40 ">
                 <div class="col-span-1 flex justify-center lg:justify-start pb-4 lg:pb-0">

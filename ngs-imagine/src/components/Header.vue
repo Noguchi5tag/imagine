@@ -1,9 +1,8 @@
 <script setup>
+import { scrollToSection  } from '../assets/js/ScrollLink.js';
 import { ref } from 'vue'
-import { Slide } from 'vue3-burger-menu'
 
 const isMenuOpen = ref(false);
-
 const closeMenu = () => {
     isMenuOpen.value = false;
 }
@@ -14,13 +13,13 @@ const closeMenu = () => {
 <div class="fixed top-0 left-0 w-full flex justify-between items-center px-4 lg:px-12 py-2 lg:py-4 z-50">
     <nav class="bg-customBeige flex justify-center items-center pl-2 pr-6 py-2 rounded-full shadow-lg">
         <div class="w-auto h-auto">
-            <img class="w-40 lg:w-80 h-auto" src="../assets/images/logo/logo_yoko.svg" alt="長崎IMAGINE">
+            <a href="#"><img class="w-40 lg:w-80 h-auto" src="../assets/images/logo/logo_yoko.svg" alt="長崎IMAGINE"></a>
         </div>
         <ul class="hidden lg:flex text-base text-customBlue font-Maru ml-6">
-            <li class="ml-6"><a href="#">長崎イマジンについて</a></li>
-            <li class="ml-6"><a href="#">イマジントーーク！</a></li>
-            <li class="ml-6"><a href="#">最新情報</a></li>
-            <li class="ml-6"><a href="#">特集</a></li>
+            <li class="ml-6"><a href="#about" @click.prevent="scrollToSection('about')">長崎イマジンについて</a></li>
+            <li class="ml-6"><a href="#talk" @click.prevent="scrollToSection('talk')">イマジントーーク！</a></li>
+            <li class="ml-6"><a href="#special" @click.prevent="scrollToSection('special')">特集</a></li>
+            <li class="ml-6"><a href="#info" @click.prevent="scrollToSection('info')">最新情報</a></li>
         </ul>
     </nav>
     <div class="hidden lg:flex">
@@ -48,10 +47,10 @@ const closeMenu = () => {
         <button @click="closeMenu" class="text-customBlue text-3xl font-bold">&times;</button>
     </div>
     <ul class="text-base text-customBlue font-Maru space-y-2 mt-6">
-        <li><a href="#" @click="closeMenu">長崎イマジンについて</a></li>
-        <li><a href="#" @click="closeMenu">イマジントーーク！</a></li>
-        <li><a href="#" @click="closeMenu">最新情報</a></li>
-        <li><a href="#" @click="closeMenu">特集</a></li>
+        <li><a href="#about" @click="closeMenu" @click.prevent="scrollToSection('about')">長崎イマジンについて</a></li>
+        <li><a href="#talk" @click="closeMenu" @click.prevent="scrollToSection('talk')">イマジントーーク！</a></li>
+        <li><a href="#special" @click="closeMenu" @click.prevent="scrollToSection('special')">特集</a></li>
+        <li><a href="#info" @click="closeMenu" @click.prevent="scrollToSection('info')">最新情報</a></li>
     </ul>
 </div>
 </template>

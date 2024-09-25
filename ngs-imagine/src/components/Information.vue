@@ -9,7 +9,7 @@ import { ref } from 'vue'
 </script>
 
 <template>
-    <BgWhite>
+    <BgWhite id="info">
         <Inner>
             <div class="mb-10">
                 <div class="flex justify-between items-center">

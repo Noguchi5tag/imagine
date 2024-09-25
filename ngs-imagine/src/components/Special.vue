@@ -9,14 +9,14 @@ import { ref } from 'vue'
 </script>
 
 <template>
-    <BgBeige>
+    <BgBeige id="special">
         <div class="overflow-x-hidden">
             <Inner>
                 <SectionTitle :title=" '特集' " :title_sub=" 'SPECIAL CONTENTS' "/>
     
                 <div class="pb-32 pt-5 lg:pt-10">
     
-                    <div class="special-content">
+                    <div id="imazine" class="special-content">
                         <p class="lg:hidden font-Maru text-xl lg:text-3xl text-customBlue font-bold mb-4 z-10">CONTENTS:01</p>
                         <div class="lg:flex justify-between items-center mb-16 relative">
                             <div class="h-auto w-full lg:w-2/5 relative z-10">
@@ -45,7 +45,7 @@ import { ref } from 'vue'
                         </div>
                     </div>
     
-                    <div class="special-content">
+                    <div id="amafe" class="special-content">
                         <p class="lg:hidden font-Maru text-xl lg:text-3xl text-customBlue font-bold mb-4 z-10">CONTENTS:02</p>
                         <div class="flex lg:gap-16 flex-col-reverse lg:flex-row justify-between items-center mb-16 relative">
                             <div class="content-logo lg:w-3/5 flex flex-col justify-center lg:p-6 pb-6 lg:mt-0 mt-4 relative">
@@ -73,7 +73,7 @@ import { ref } from 'vue'
                         </div>
                     </div>
     
-                    <div class="special-content">
+                    <div id="himajin" class="special-content">
                         <p class="lg:hidden font-Maru text-xl lg:text-3xl text-customBlue font-bold mb-4 z-10">CONTENTS:03</p>
                         <div class="lg:flex justify-between items-center mb-16 relative">
                             <div class="h-auto w-full lg:w-2/5 relative z-10">
@@ -102,7 +102,7 @@ import { ref } from 'vue'
                         </div>
                     </div>
     
-                    <div class="special-content">
+                    <div id="runjin" class="special-content">
                         <p class="lg:hidden font-Maru text-xl lg:text-3xl text-customBlue font-bold mb-4 z-10">CONTENTS:04</p>
                         <div class="flex lg:gap-20 flex-col-reverse lg:flex-row justify-between items-center mb-16 relative">
                             <div class="content-logo lg:w-3/5 flex flex-col justify-center lg:p-6 pb-6 lg:mt-0 mt-4 relative">

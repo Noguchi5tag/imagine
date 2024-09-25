@@ -1,4 +1,5 @@
 <script setup>
+import { scrollToSection  } from '../assets/js/ScrollLink.js';
 import Inner from '../Layouts/Inner.vue'
 import { ref } from 'vue'
 import { Navigation, A11y } from 'swiper/modules';
@@ -92,19 +93,19 @@ const swiperNavigation = {
                     </div>
                     <div class="flex justify-around gap-4 lg:gap-8 mt-4 lg:mt-0">
                         <ul class="h-full flex flex-col justify-between lg:space-y-6">
-                            <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#">長崎イマジンについて</a></li>
-                            <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#">最新情報</a></li>
-                            <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#">イマジントーーク！</a></li>
+                            <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#about" @click.prevent="scrollToSection('about')">長崎イマジンについて</a></li>
+                            <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#info"  @click.prevent="scrollToSection('info')">最新情報</a></li>
+                            <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#talk"  @click.prevent="scrollToSection('talk')">イマジントーーク！</a></li>
                         </ul>
                         <ul class="lg:flex items-end justify-between gap-8">
                             <div class="lg:space-y-6">
-                                <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#">特集</a></li>
-                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#">長崎今人 ながさき昭和100年史</a></li>
-                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#">アマフェッショナル散策の流儀</a></li>
+                                <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#special"  @click.prevent="scrollToSection('special')">特集</a></li>
+                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#imazine" @click.prevent="scrollToSection('imazine')">長崎今人 ながさき昭和100年史</a></li>
+                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#amafe" @click.prevent="scrollToSection('amafe')">アマフェッショナル散策の流儀</a></li>
                             </div>
                             <div class="lg:space-y-6">
-                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#">長崎ひまじん</a></li>
-                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#">長崎今走る人イマRUNジン </a></li>
+                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#himajin" @click.prevent="scrollToSection('himajin')">長崎ひまじん</a></li>
+                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#runjin" @click.prevent="scrollToSection('runjin')">長崎今走る人イマRUNジン </a></li>
                             </div>
                         </ul>
                     </div>
