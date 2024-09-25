@@ -7,13 +7,13 @@ Vite
 
 ## 始め方
 
-# インストール
+#### インストール
 npm install
 
-# 立ち上げ
+#### 立ち上げ
 npm run dev
 
 URL:http://localhost:5173/
 
-# 終了
+#### 終了
 Ctrl + C
