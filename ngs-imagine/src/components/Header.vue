@@ -1,8 +1,12 @@
 <script setup>
 import { ref } from 'vue'
-import  {  Slide  }  from  'vue3-burger-menu'   // 使用したい CSS トランジションをインポートします。この場合は `Slide` を使用します。
+import { Slide } from 'vue3-burger-menu'
 
-const isOpen = ref(false)
+const isMenuOpen = ref(false);
+
+const closeMenu = () => {
+    isMenuOpen.value = false;
+}
 </script>
 
 <template>
@@ -16,7 +20,7 @@ const isOpen = ref(false)
             <li class="ml-6"><a href="#">長崎イマジンについて</a></li>
             <li class="ml-6"><a href="#">イマジントーーク！</a></li>
             <li class="ml-6"><a href="#">最新情報</a></li>
-            <li class="ml-6"><a href="#">特集</a></li> <!-- ドロワーメニュー -->
+            <li class="ml-6"><a href="#">特集</a></li>
         </ul>
     </nav>
     <div class="hidden lg:flex">
@@ -30,19 +34,28 @@ const isOpen = ref(false)
             <a href="#"><img src="../assets/images/sns/x.svg" alt="Xアイコン"></a>
         </div>
     </div>
-    <div class="lg:hidden w-12 h-12 ml-2 bg-customBeige p-2 rounded-full relative">
-        <!-- ここにハンバーガーメニュー -->
-        <div class="absolute top-10 left-0">
-            <Slide right>
-                <a id="home" href="#talk">
-                    <span>Home</span>
-                </a>
-            </Slide>
+
+    <div class="lg:hidden w-10 h-10 bg-customBeige py-3 px-2 rounded-full shadow-lg relative" @click="isMenuOpen = !isMenuOpen">
+        <div class="w-full h-full flex flex-col justify-between items-center">
+            <span class="block w-full h-[2px] bg-customBlue"></span>
+            <span class="block w-full h-[2px] bg-customBlue"></span>
+            <span class="block w-full h-[2px] bg-customBlue"></span>
         </div>
     </div>
 </div>
+<div v-if="isMenuOpen" class="fixed top-0 right-0 w-2/3 h-full bg-customBeige z-50 shadow-lg flex flex-col p-6 transition-all duration-200">
+    <div class="flex justify-end">
+        <button @click="closeMenu" class="text-customBlue text-3xl font-bold">&times;</button>
+    </div>
+    <ul class="text-base text-customBlue font-Maru space-y-2 mt-6">
+        <li><a href="#" @click="closeMenu">長崎イマジンについて</a></li>
+        <li><a href="#" @click="closeMenu">イマジントーーク！</a></li>
+        <li><a href="#" @click="closeMenu">最新情報</a></li>
+        <li><a href="#" @click="closeMenu">特集</a></li>
+    </ul>
+</div>
 </template>
 
-<style scoped>
+<style>
 
 </style>
