@@ -28,7 +28,7 @@ import { ref } from 'vue'
                                         <h2 class="font-Maru text-2xl lg:text-4xl text-customBlue lg:leading-normal leading-normal font-bold mb-4 tracking-wide lg:tracking-widest">長崎今人<br>ながさき昭和100年史</h2>
                                         <img class="lg:hidden w-16 h-16 lg:w-20 lg:h-20 z-10 rotate-45" src="../assets/images/logo/compass.svg" alt="ロゴ">
                                     </div>
-                                    <p class="font-Maru font-bold text-sm lg:leading-loose leading-loose">令和7年は昭和100年、100年に1度の長崎は昭和～平成～令和と続く100年史でもある。長崎市の100年の歴史を長崎にゆかりのある人物にスポットを当てて紹介します。</p>
+                                    <p class="font-Maru text-sm lg:leading-loose leading-loose">令和7年は昭和100年、100年に1度の長崎は昭和～平成～令和と続く100年史でもある。長崎市の100年の歴史を長崎にゆかりのある人物にスポットを当てて紹介します。</p>
             
                                     <div class="mt-5 lg:mt-10 flex justify-center items-center lg:block">
                                         <div class="rounded-full border-4 border-customBeige inline-block">
@@ -54,7 +54,7 @@ import { ref } from 'vue'
                                         <h2 class="font-Maru text-2xl lg:text-4xl text-customBlue lg:leading-normal leading-normal font-bold mb-4 tracking-wide lg:tracking-widest">アマフェッショナル<br>散策の流儀</h2>
                                         <img class="lg:hidden w-16 h-16 lg:w-20 lg:h-20 z-10 rotate-45" src="../assets/images/logo/compass.svg" alt="ロゴ">
                                     </div>
-                                    <p class="font-Maru font-bold text-sm lg:leading-loose leading-loose">1人または2人の登場人物がスタジアムシティや市役所新庁舎などを散策するショートドキュメンタリー風動画のご紹介です。</p>
+                                    <p class="font-Maru text-sm lg:leading-loose leading-loose">1人または2人の登場人物がスタジアムシティや市役所新庁舎などを散策するショートドキュメンタリー風動画のご紹介です。</p>
                                     <div class="mt-5 lg:mt-10 flex justify-center items-center lg:block">
                                         <div class="rounded-full border-4 border-customBeige inline-block">
                                             <div class=" border-4 rounded-full border-white">
@@ -85,7 +85,7 @@ import { ref } from 'vue'
                                         <h2 class="font-Maru text-2xl lg:text-4xl text-customBlue lg:leading-normal leading-normal font-bold mb-4 tracking-wide lg:tracking-widest">長崎ひまじん</h2>
                                         <img class="lg:hidden w-16 h-16 lg:w-20 lg:h-20 z-10 rotate-45" src="../assets/images/logo/compass.svg" alt="ロゴ">
                                     </div>
-                                    <p class="font-Maru font-bold text-sm lg:leading-loose leading-loose">長崎の遊び場・公園・散策場所・イベント・コンサート情報などを詳しくご紹介します。</p>
+                                    <p class="font-Maru text-sm lg:leading-loose leading-loose">長崎の遊び場・公園・散策場所・イベント・コンサート情報などを詳しくご紹介します。</p>
             
                                     <div class="mt-5 lg:mt-10 flex justify-center items-center lg:block">
                                         <div class="rounded-full border-4 border-customBeige inline-block">
@@ -111,7 +111,7 @@ import { ref } from 'vue'
                                         <h2 class="font-Maru text-2xl lg:text-4xl text-customBlue lg:leading-normal leading-normal font-bold mb-4 tracking-wide lg:tracking-widest">長崎今走る人<br>イマRUNジン</h2>
                                         <img class="lg:hidden w-16 h-16 lg:w-20 lg:h-20 z-10 rotate-45" src="../assets/images/logo/compass.svg" alt="ロゴ">
                                     </div>
-                                    <p class="font-Maru font-bold text-sm lg:leading-loose leading-loose">バトン動画 バトンはサッカーボール？バスケットボール？いろんな人がいろんな場所を走る！ひたすら走る！ただ走る！坂も走る！案内も走る！<br>廊下も走る！全力で走る！無駄に走る！みんなで走る！</p>
+                                    <p class="font-Maru text-sm lg:leading-loose leading-loose">バトン動画 バトンはサッカーボール？バスケットボール？いろんな人がいろんな場所を走る！ひたすら走る！ただ走る！坂も走る！案内も走る！<br>廊下も走る！全力で走る！無駄に走る！みんなで走る！</p>
                                     <div class="mt-5 lg:mt-10 flex justify-center items-center lg:block">
                                         <div class="rounded-full border-4 border-customBeige inline-block">
                                             <div class=" border-4 rounded-full border-white">

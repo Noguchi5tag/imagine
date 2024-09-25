@@ -33,10 +33,10 @@ import { ref } from 'vue'
                                 <p class="text-base font-Maru font-bold">2024.0.0</p>
                                 <h3 class="font-Maru text-xl lg:text-2xl text-customBlue font-bold leading-normal"><a href="#">イマジントーークにインタビューを追加しました。</a></h3>
         
-                                <p class="hidden lg:block text-sm lg:text-base font-Maru font-bold lg:leading-loose">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
+                                <p class="hidden lg:block text-sm lg:text-base font-Maru lg:leading-loose">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
                             </div>
                         </div>
-                        <p class="lg:hidden text-sm lg:text-base font-Maru font-bold mt-4 leading-normal">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
+                        <p class="lg:hidden text-sm lg:text-base font-Maru mt-4 leading-normal">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
                     </div>
     
                     <div class="info-content">
@@ -48,10 +48,10 @@ import { ref } from 'vue'
                                 <p class="text-base font-Maru font-bold">2024.0.0</p>
                                 <h3 class="font-Maru text-xl lg:text-2xl text-customBlue font-bold leading-normal"><a href="#">イマジントーークにインタビューを追加しました。</a></h3>
         
-                                <p class="hidden lg:block text-sm lg:text-base font-Maru font-bold lg:leading-loose">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
+                                <p class="hidden lg:block text-sm lg:text-base font-Maru lg:leading-loose">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
                             </div>
                         </div>
-                        <p class="lg:hidden text-sm lg:text-base font-Maru font-bold mt-4 leading-normal">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
+                        <p class="lg:hidden text-sm lg:text-base font-Maru mt-4 leading-normal">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
                     </div>
     
                     <div class="info-content">
@@ -63,10 +63,10 @@ import { ref } from 'vue'
                                 <p class="text-base font-Maru font-bold">2024.0.0</p>
                                 <h3 class="font-Maru text-xl lg:text-2xl text-customBlue font-bold leading-normal"><a href="#">イマジントーークにインタビューを追加しました。</a></h3>
         
-                                <p class="hidden lg:block text-sm lg:text-base font-Maru font-bold lg:leading-loose">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
+                                <p class="hidden lg:block text-sm lg:text-base font-Maru lg:leading-loose">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
                             </div>
                         </div>
-                        <p class="lg:hidden text-sm lg:text-base font-Maru font-bold mt-4 leading-normal">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
+                        <p class="lg:hidden text-sm lg:text-base font-Maru mt-4 leading-normal">この記事はサンプルです。この記事はサンプルです。イマジントーークにインタビューしました。今回は株式会社〇〇に勤務する〇〇酸の記事をご紹介します。</p>
                     </div>
                 </div>
     

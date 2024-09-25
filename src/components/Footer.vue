@@ -100,18 +100,18 @@ const swiperNavigation = {
                         <ul class="lg:flex items-end justify-between gap-8">
                             <div class="lg:space-y-6">
                                 <li class="font-Maru font-bold text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#special"  @click.prevent="scrollToSection('special')">特集</a></li>
-                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#imazine" @click.prevent="scrollToSection('imazine')">長崎今人 ながさき昭和100年史</a></li>
-                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#amafe" @click.prevent="scrollToSection('amafe')">アマフェッショナル散策の流儀</a></li>
+                                <li class="list-disc font-Maru text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#imazine" @click.prevent="scrollToSection('imazine')">長崎今人 ながさき昭和100年史</a></li>
+                                <li class="list-disc font-Maru text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#amafe" @click.prevent="scrollToSection('amafe')">アマフェッショナル散策の流儀</a></li>
                             </div>
                             <div class="lg:space-y-6">
-                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#himajin" @click.prevent="scrollToSection('himajin')">長崎ひまじん</a></li>
-                                <li class="list-disc font-Maru text-xs lg:leading-loose leading-loose"><a href="#runjin" @click.prevent="scrollToSection('runjin')">長崎今走る人イマRUNジン </a></li>
+                                <li class="list-disc font-Maru text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#himajin" @click.prevent="scrollToSection('himajin')">長崎ひまじん</a></li>
+                                <li class="list-disc font-Maru text-xs lg:text-lg lg:leading-loose leading-loose"><a href="#runjin" @click.prevent="scrollToSection('runjin')">長崎今走る人イマRUNジン </a></li>
                             </div>
                         </ul>
                     </div>
                 </div>
             </div>
-            <p class="text-center mt-4 text-[10px]">&copy;長崎イマジン</p>
+            <p class="text-center mt-4 text-xs lg:text-sm">&copy;長崎イマジン</p>
         </div>
     </Inner>
 </template>

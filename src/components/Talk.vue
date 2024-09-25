@@ -39,7 +39,7 @@ const swiperPagination = {
                     </div>
         
                     <div class="">
-                        <p class="font-Maru text-sm lg:text-base font-bold leading-loose">
+                        <p class="font-Maru text-sm lg:text-base leading-loose">
                             イマジンさんいつやっとっすか？今やろ！イマジントーークでは、長崎市の企業に勤務する新人社員から、仕事内容はもちろん、長崎での休日の過ごし方や趣味など、深掘りエピソードもご紹介します。
                         </p>
     

@@ -15,7 +15,7 @@ const closeMenu = () => {
         <div class="w-auto h-auto">
             <a href="#"><img class="w-40 lg:w-80 h-auto" src="../assets/images/logo/logo_yoko.svg" alt="長崎IMAGINE"></a>
         </div>
-        <ul class="hidden lg:flex text-base text-customBlue font-Maru ml-6">
+        <ul class="hidden lg:flex text-base font-bold text-customBlue font-Maru ml-6">
             <li class="ml-6"><a href="#about" @click.prevent="scrollToSection('about')">長崎イマジンについて</a></li>
             <li class="ml-6"><a href="#talk" @click.prevent="scrollToSection('talk')">イマジントーーク！</a></li>
             <li class="ml-6"><a href="#special" @click.prevent="scrollToSection('special')">特集</a></li>
