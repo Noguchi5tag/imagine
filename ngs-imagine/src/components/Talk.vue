@@ -79,20 +79,21 @@ const swiperPagination = {
                                     <div class="rounded-lg bg-customBeige px-4 ">
                                         <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
                                             <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">
-                                                <img class="w-full h-full object-cover" src="../assets/images/talk/ana.jpg" alt="ANAの人">
+                                                <img class="w-full h-full object-cover" src="../assets/images/talk/one_dejima.jpg" alt="ANAの人">
                                             </div>
                                             <div class="mb-4 pt-20 lg:pt-28">
                                                 <!-- <img src="" alt="会社のロゴ"> -->
-                                                <p class="text-sm lg:text-base">（ここにロゴ）ANAテレマート株式会社</p>
+                                                <p class="text-sm lg:text-base">（ここにロゴ）ONE DEJIMA</p>
                                             </div>
-                                            <h3 class="mb-4 text-base lg:text-lg text-customBlue font-Maru font-bold">「美声」と「よりそい」の先に、<br>たくさんの感謝に出会える。</h3>
+                                            <h3 class="mb-4 text-base lg:text-lg text-customBlue font-Maru font-bold">長崎から世界を支える<br>地域発のグローバル会社</h3>
                                         </div>
                                         <div class="py-4">
-                                            <p class="mb-4 text-xs">私は国内線と国際線の２つのご案内スキルを習得しているので、その予約案内や派遣などの業務に携わっています。....</p>
+                                            <p class="mb-4 text-xs">ONE DEJIMAは「長崎から世界を支える」をミッションにグローバル企業のさまざまな業務支援を行います。地域に根ざしながら、世界的な視野と探究心でグローバル...</p>
                                             <p class="text-sm lg:text-base text-customBlue font-bold">T・K（入社00年目）</p>
                                         </div>
                                     </div>
-                                </swiper-slide><swiper-slide>
+                                </swiper-slide>
+                                <swiper-slide>
                                     <div class="rounded-lg bg-customBeige px-4 ">
                                         <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
                                             <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">
@@ -109,24 +110,26 @@ const swiperPagination = {
                                             <p class="text-sm lg:text-base text-customBlue font-bold">T・K（入社00年目）</p>
                                         </div>
                                     </div>
-                                </swiper-slide><swiper-slide>
+                                </swiper-slide>
+                                <swiper-slide>
                                     <div class="rounded-lg bg-customBeige px-4 ">
                                         <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
                                             <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">
-                                                <img class="w-full h-full object-cover" src="../assets/images/talk/ana.jpg" alt="ANAの人">
+                                                <img class="w-full h-full object-cover" src="../assets/images/talk/one_dejima.jpg" alt="ANAの人">
                                             </div>
                                             <div class="mb-4 pt-20 lg:pt-28">
                                                 <!-- <img src="" alt="会社のロゴ"> -->
-                                                <p class="text-sm lg:text-base">（ここにロゴ）ANAテレマート株式会社</p>
+                                                <p class="text-sm lg:text-base">（ここにロゴ）ONE DEJIMA</p>
                                             </div>
-                                            <h3 class="mb-4 text-base lg:text-lg text-customBlue font-Maru font-bold">「美声」と「よりそい」の先に、<br>たくさんの感謝に出会える。</h3>
+                                            <h3 class="mb-4 text-base lg:text-lg text-customBlue font-Maru font-bold">長崎から世界を支える<br>地域発のグローバル会社</h3>
                                         </div>
                                         <div class="py-4">
-                                            <p class="mb-4 text-xs">私は国内線と国際線の２つのご案内スキルを習得しているので、その予約案内や派遣などの業務に携わっています。....</p>
+                                            <p class="mb-4 text-xs">ONE DEJIMAは「長崎から世界を支える」をミッションにグローバル企業のさまざまな業務支援を行います。地域に根ざしながら、世界的な視野と探究心でグローバル...</p>
                                             <p class="text-sm lg:text-base text-customBlue font-bold">T・K（入社00年目）</p>
                                         </div>
                                     </div>
-                                </swiper-slide><swiper-slide>
+                                </swiper-slide>
+                                <swiper-slide>
                                     <div class="rounded-lg bg-customBeige px-4 ">
                                         <div class="flex flex-col justify-center items-center border-b-4 border-b-customBrown relative">
                                             <div class="mb-4 rounded-full overflow-hidden w-32 h-32 lg:w-40 lg:h-40 border-4 border-customBeige bg-customBeige absolute -top-1/3">

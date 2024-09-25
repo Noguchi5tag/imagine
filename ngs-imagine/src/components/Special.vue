@@ -39,7 +39,7 @@ import { ref } from 'vue'
                                     </div>
                                 </div>
                                 <img class="hidden lg:block absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 z-10 rotate-45" src="../assets/images/logo/compass.svg" alt="ロゴ">
-                                <p class="hidden lg:block absolute top-0 -right-8 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 font-Maru text-xl lg:text-3xl text-customBlue font-bold jp-vertical z-10">CONTENTS:01</p>
+                                <p class="hidden lg:block absolute top-0 -right-20 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 font-Maru text-xl lg:text-3xl text-customBlue font-bold jp-vertical z-10">CONTENTS:01</p>
                             </div>
                             <div class="absolute bg-white lg:top-1/2 bottom-0 -left-6 lg:left-0 lg:-translate-y-1/2 w-screen h-[500px] lg:h-72 z-0"></div>
                         </div>
@@ -96,9 +96,9 @@ import { ref } from 'vue'
                                     </div>
                                 </div>
                                 <img class="hidden lg:block absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 z-10 rotate-45" src="../assets/images/logo/compass.svg" alt="ロゴ">
-                                <p class="hidden lg:block absolute top-0 -right-8 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 font-Maru text-xl lg:text-3xl text-customBlue font-bold jp-vertical z-10">CONTENTS:03</p>
+                                <p class="hidden lg:block absolute top-0 -right-20 translate-x-1/2 translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 font-Maru text-xl lg:text-3xl text-customBlue font-bold jp-vertical z-10">CONTENTS:03</p>
                             </div>
-                            <div class="absolute bg-white lg:top-1/2 bottom-0 -left-6 lg:left-0 lg:-translate-y-1/2 w-screen h-[500px] lg:h-60 z-0"></div>
+                            <div class="absolute bg-white lg:top-1/2 bottom-0 -left-6 lg:left-0 lg:-translate-y-1/2 w-screen h-[500px] lg:h-52 z-0"></div>
                         </div>
                     </div>
     

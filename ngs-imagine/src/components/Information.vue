@@ -70,10 +70,10 @@ import { ref } from 'vue'
                     </div>
                 </div>
     
-                <div class="mt-5 lg:mt-10 flex justify-center items-center lg:block">
+                <div class="lg:hidden mt-5 lg:mt-10 flex justify-center items-center">
                     <div class="rounded-full border-4 border-customBeige inline-block">
                         <div class=" border-4 rounded-full border-white">
-                            <a class="bg-customBeige px-10 lg:px-20 py-2 lg:py-4 rounded-full inline-block text-sm lg:text-base text-customBlue font-Maru font-bold" href="#">詳しくはこちら</a>
+                            <a class="bg-customBeige px-10 lg:px-20 py-2 lg:py-4 rounded-full inline-block text-sm lg:text-base text-customBlue font-Maru font-bold" href="#">一覧はこちら</a>
                         </div>
                     </div>
                 </div>
