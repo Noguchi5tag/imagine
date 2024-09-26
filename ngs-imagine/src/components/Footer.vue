@@ -24,6 +24,7 @@ const swiperNavigation = {
                     <button class="custom-prev bg-customBlue text-white py-1 lg:py-2 px-2.5 lg:px-4 rounded-full absolute top-1/2 -translate-y-1/2 -left-4 z-10 before:content-['<']"></button>
                     <swiper
                         :modules="modules"
+                        :loop="true"
                         :slides-per-view="2"
                         :space-between="10"
                         :breakpoints="{
