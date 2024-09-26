@@ -34,11 +34,11 @@ const closeMenu = () => {
         </div>
     </div>
 
-    <div class="lg:hidden w-10 h-10 bg-customBeige py-3 px-2 rounded-full shadow-lg relative" @click="isMenuOpen = !isMenuOpen">
+    <div class="lg:hidden w-12 h-12 bg-customBeige py-3 px-2 rounded-full shadow-lg relative" @click="isMenuOpen = !isMenuOpen">
         <div class="w-full h-full flex flex-col justify-between items-center">
-            <span class="block w-full h-[2px] bg-customBlue"></span>
-            <span class="block w-full h-[2px] bg-customBlue"></span>
-            <span class="block w-full h-[2px] bg-customBlue"></span>
+            <span class="block w-full h-[3px] bg-customBlue"></span>
+            <span class="block w-full h-[3px] bg-customBlue"></span>
+            <span class="block w-full h-[3px] bg-customBlue"></span>
         </div>
     </div>
 </div>
