@@ -29,12 +29,12 @@ const swiperPagination = {
     <BgBrown id="talk">
         <div class="overflow-x-hidden">
             <Inner>
-                <div class="py-28 lg:py-8">
+                <div class="pt-10 pb-40 lg:pt-20">
                     <div class="lg:flex justify-around items-center">
                         <SectionTitle :title=" 'イマジントーーク！' " :title_sub=" 'IMAGINE TALK!' "/>
                         <div class="hidden lg:block">
-                            <span class="story-navi story-navi--prev bg-customBlue text-white px-6 py-4 rounded-full relative"></span>
-                            <span class="story-navi story-navi--next bg-customBlue text-white px-6 py-4 rounded-full ml-2 relative"></span>
+                            <span class="story-navi story-navi--prev bg-customBlue text-white px-7 py-4 rounded-full relative"></span>
+                            <span class="story-navi story-navi--next bg-customBlue text-white px-7 py-4 rounded-full ml-2 relative"></span>
                         </div>
                     </div>
         
@@ -151,8 +151,8 @@ const swiperPagination = {
                         </div>
                         <div class="lg:hidden mt-10 flex items-center relative">
                             <div class="">
-                                <span class="story-navi story-navi--prev bg-customBlue text-white px-4 py-2 rounded-full relative before:content-['prev']"></span>
-                                <span class="story-navi story-navi--next bg-customBlue text-white px-4 py-2 rounded-full ml-2 relative before:content-['next']"></span>
+                                <span class="story-navi story-navi--prev bg-customBlue text-white px-5 py-2 rounded-full relative before:content-['prev']"></span>
+                                <span class="story-navi story-navi--next bg-customBlue text-white px-5 py-2 rounded-full ml-2 relative before:content-['next']"></span>
                             </div>
                             <div class="swiper-pagination swiper-my-pagination-main swiper-pagination-progressbar swiper-pagination-horizontal">
                                 <span 
@@ -164,7 +164,7 @@ const swiperPagination = {
                         </div>
                     </div>
                     
-                    <div class="flex justify-center items-center mt-5 lg:mt-10 ">
+                    <div class="flex justify-center items-center mt-5 lg:mt-10">
                         <div class="rounded-full border-4 border-customBeige inline-block">
                             <div class=" border-4 rounded-full border-customBrown">
                                 <a class="bg-customBeige px-10 lg:px-20 py-2 lg:py-4 rounded-full inline-block text-sm lg:text-base text-customBlue font-Maru font-bold" href="#">一覧はこちら</a>

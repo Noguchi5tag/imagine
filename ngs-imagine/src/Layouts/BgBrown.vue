@@ -4,7 +4,7 @@ import { ref } from 'vue'
 </script>
 
 <template>
-    <div class="bg-customBrown wave-beige lg:py-20">
+    <div class="bg-customBrown wave-beige lg:pb-20">
         <slot />
     </div>
 </template>
