@@ -44,8 +44,8 @@ onMounted(() => {
             slidesPerView: 3,
             },
         },
+        allowTouchMove: true,
         speed: 6000,
-        allowTouchMove: false,
         autoplay: {
             delay: 0,
             disableOnInteraction: false,
@@ -64,7 +64,7 @@ onMounted(() => {
             },
         },
         speed: 6000,
-        allowTouchMove: false,
+        allowTouchMove: true,
         autoplay: {
             delay: 0,
             disableOnInteraction: false,
