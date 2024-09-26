@@ -1,37 +1,6 @@
 <script setup>
 import Header from './Header.vue'
 import { ref, onMounted } from 'vue';
-// カルーセル
-import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide } from 'vue3-carousel'
-
-// Swiper
-import 'swiper/css';
-
-const images_top = [
-    '/src/assets/images/carousel/carousel (2).jpg',
-    '/src/assets/images/carousel/carousel (3).jpg',
-    '/src/assets/images/carousel/carousel (4).jpg',
-    '/src/assets/images/carousel/carousel (5).jpg',
-    '/src/assets/images/carousel/carousel (6).jpg',
-    '/src/assets/images/carousel/carousel (7).jpg',
-    '/src/assets/images/carousel/carousel (8).jpg',
-    '/src/assets/images/carousel/carousel (9).jpg',
-    '/src/assets/images/carousel/carousel (10).jpg',
-    '/src/assets/images/carousel/carousel (11).jpg',
-];
-const images_bottom = [
-    '/src/assets/images/carousel/carousel (12).jpg',
-    '/src/assets/images/carousel/carousel (13).jpg',
-    '/src/assets/images/carousel/carousel (14).jpg',
-    '/src/assets/images/carousel/carousel (15).jpg',
-    '/src/assets/images/carousel/carousel (16).jpg',
-    '/src/assets/images/carousel/carousel (17).jpg',
-    '/src/assets/images/carousel/carousel (18).jpg',
-    '/src/assets/images/carousel/carousel (19).jpg',
-    '/src/assets/images/carousel/carousel (20).jpg',
-    '/src/assets/images/carousel/carousel (21).jpg',
-];
 
 // Swiperの初期化
 onMounted(() => {
@@ -67,7 +36,14 @@ onMounted(() => {
     new Swiper('.swiper1', {
         direction: 'vertical',
         loop: true,
-        slidesPerView: 6.5,
+        breakpoints: {
+            1024: {
+            slidesPerView: 6.5,
+            },
+            0: {
+            slidesPerView: 3,
+            },
+        },
         speed: 6000,
         allowTouchMove: false,
         autoplay: {
@@ -79,7 +55,14 @@ onMounted(() => {
     new Swiper('.swiper2', {
         direction: 'vertical',
         loop: true,
-        slidesPerView: 6.5,
+        breakpoints: {
+            1024: {
+            slidesPerView: 6.5,
+            },
+            0: {
+            slidesPerView: 3,
+            },
+        },
         speed: 6000,
         allowTouchMove: false,
         autoplay: {
@@ -216,7 +199,6 @@ onMounted(() => {
 </template>
 
 <style>
-
 .header-content .swiper {
     height: 100%;
     width: 100%;
@@ -249,8 +231,7 @@ onMounted(() => {
 }
 .header-content_sp .swiper{
     height: 100%;
-    width: calc(50% - 10px);
-    position: absolute!important;
+    height: 100%;
 }
 .header-content_sp .swiper.swiper1{
     width: 50%;
@@ -264,5 +245,10 @@ onMounted(() => {
 }
 .header-content_sp .swiper-wrapper {
     transition-timing-function: linear;
+}
+.header-content_sp .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 </style>
