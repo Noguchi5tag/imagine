@@ -44,8 +44,8 @@ onMounted(() => {
             slidesPerView: 3,
             },
         },
-        allowTouchMove: true,
         speed: 6000,
+        allowTouchMove: false,
         autoplay: {
             delay: 0,
             disableOnInteraction: false,
@@ -64,7 +64,7 @@ onMounted(() => {
             },
         },
         speed: 6000,
-        allowTouchMove: true,
+        allowTouchMove: false,
         autoplay: {
             delay: 0,
             disableOnInteraction: false,
@@ -219,7 +219,7 @@ onMounted(() => {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 700px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -229,9 +229,21 @@ onMounted(() => {
         display: none;
     }
 }
+.header-content_sp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)); /* 上から白をかける */
+    opacity: .3;
+    z-index: 1;
+}
 .header-content_sp .swiper{
     height: 100%;
     height: 100%;
+    z-index: 0;
 }
 .header-content_sp .swiper.swiper1{
     width: 50%;

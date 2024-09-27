@@ -1,5 +1,5 @@
 <script setup>
-import { scrollToSection  } from '../assets/js/ScrollLink.js';
+import { scrollToSection, scrollToSectionSP  } from '../assets/js/ScrollLink.js';
 import { ref } from 'vue'
 
 const isMenuOpen = ref(false);
@@ -42,15 +42,15 @@ const closeMenu = () => {
         </div>
     </div>
 </div>
-<div v-if="isMenuOpen" class="fixed top-0 right-0 w-2/3 h-full bg-customBeige z-50 shadow-lg flex flex-col p-6 transition-all duration-200">
+<div v-if="isMenuOpen" class="fixed top-0 right-0 w-2/3 h-full bg-customBrown z-50 shadow-lg flex flex-col p-6 transition-all duration-200">
     <div class="flex justify-end">
         <button @click="closeMenu" class="text-customBlue text-3xl font-bold">&times;</button>
     </div>
     <ul class="text-base text-customBlue font-Maru space-y-2 mt-6">
-        <li><a href="#about" @click="closeMenu" @click.prevent="scrollToSection('about')">長崎イマジンについて</a></li>
-        <li><a href="#talk" @click="closeMenu" @click.prevent="scrollToSection('talk')">イマジントーーク！</a></li>
-        <li><a href="#special" @click="closeMenu" @click.prevent="scrollToSection('special')">特集</a></li>
-        <li><a href="#info" @click="closeMenu" @click.prevent="scrollToSection('info')">最新情報</a></li>
+        <li><a href="#about" @click="closeMenu" @click.prevent="scrollToSectionSP('about')">長崎イマジンについて</a></li>
+        <li><a href="#talk" @click="closeMenu" @click.prevent="scrollToSectionSP('talk')">イマジントーーク！</a></li>
+        <li><a href="#special" @click="closeMenu" @click.prevent="scrollToSectionSP('special')">特集</a></li>
+        <li><a href="#info" @click="closeMenu" @click.prevent="scrollToSectionSP('info')">最新情報</a></li>
     </ul>
 </div>
 </template>
