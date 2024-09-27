@@ -1,11 +1,38 @@
 <script setup>
 import { scrollToSection, scrollToSectionSP  } from '../assets/js/ScrollLink.js';
-import { ref } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const isMenuOpen = ref(false);
 const closeMenu = () => {
     isMenuOpen.value = false;
 }
+
+const isDropdownOpen = ref(false);
+const toggleDropdown = () => {
+    isDropdownOpen.value = !isDropdownOpen.value;
+};
+
+const showTopButton = ref(false);
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+};
+const handleScroll = () => {
+    if (window.scrollY > 3000) {
+        showTopButton.value = true;
+    } else {
+        showTopButton.value = false;
+    }
+};
+onMounted(() => {
+    window.addEventListener('scroll', handleScroll);
+});
+onBeforeUnmount(() => {
+    window.removeEventListener('scroll', handleScroll);
+});
+
 </script>
 
 <template>
@@ -47,14 +74,36 @@ const closeMenu = () => {
         <button @click="closeMenu" class="text-customBlue text-3xl font-bold">&times;</button>
     </div>
     <ul class="text-base text-customBlue font-Maru space-y-2 mt-6">
-        <li><a href="#about" @click="closeMenu" @click.prevent="scrollToSectionSP('about')">長崎イマジンについて</a></li>
-        <li><a href="#talk" @click="closeMenu" @click.prevent="scrollToSectionSP('talk')">イマジントーーク！</a></li>
-        <li><a href="#special" @click="closeMenu" @click.prevent="scrollToSectionSP('special')">特集</a></li>
-        <li><a href="#info" @click="closeMenu" @click.prevent="scrollToSectionSP('info')">最新情報</a></li>
+        <li class="pt-2 border-dotted border-t-2 border-customBlue" ><a href="#about" @click="closeMenu" @click.prevent="scrollToSectionSP('about')">長崎イマジンについて</a></li>
+        <li class="pt-2 border-dotted border-t-2 border-customBlue" ><a href="#talk" @click="closeMenu" @click.prevent="scrollToSectionSP('talk')">イマジントーーク！</a></li>
+        <li class="pt-2 border-dotted border-t-2 border-customBlue">
+            <a href="#special" @click.prevent="toggleDropdown">特集</a>
+            <transition 
+                enter-active-class="transition-opacity duration-500 ease"
+                leave-active-class="transition-opacity duration-500 ease"
+                enter-from-class="opacity-0"
+                enter-to-class="opacity-100"
+                leave-from-class="opacity-100"
+                leave-to-class="opacity-0"
+            >
+                <ul v-if="isDropdownOpen" class="ml-4 mt-2 space-y-2">
+                    <li><a href="#imazine" @click="closeMenu" @click.prevent="scrollToSectionSP('imazine')">長崎今人 ながさき昭和100年史</a></li>
+                    <li><a href="#amafe" @click="closeMenu" @click.prevent="scrollToSectionSP('amafe')">アマフェッショナル散策の流儀</a></li>
+                    <li><a href="#himajin" @click="closeMenu" @click.prevent="scrollToSectionSP('himajin')">長崎ひまじん</a></li>
+                    <li><a href="#runjin" @click="closeMenu" @click.prevent="scrollToSectionSP('runjin')">長崎今走る人イマRUNジン</a></li>
+                </ul>
+            </transition>
+        </li>
+        <li class="py-2 border-dotted border-t-2 border-b-2 border-customBlue" ><a href="#info" @click="closeMenu" @click.prevent="scrollToSectionSP('info')">最新情報</a></li>
     </ul>
+</div>
+
+<div v-if="showTopButton" class="pageTop fixed bottom-4 right-4 z-50 cursor-pointer" @click="scrollToTop">
+    <div class="bg-customBeige rounded-full lg:p-4 p-3">
+        <img class="w-8 h-8 lg:w-10 lg:h-10" src="../assets/images/button/page-top.png" alt="ページトップ" />
+    </div>
 </div>
 </template>
 
 <style>
-
 </style>
